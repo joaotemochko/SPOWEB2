@@ -1,0 +1,14 @@
+.card {
+border: 1px solid #ddd; border-radius: 8px;
+max-width: 300px; overflow: hidden;
+transition: transform 0.2s;
+}
+.card:hover { transform: translateY(-5px); }
+.card-content {
+padding: 1rem;
+display: flex; flex-direction: column; gap: 10px;
+}
+button {
+background-color: #28a745; color: white;
+border: none; padding: 10px; cursor: pointer;
+}
